@@ -23,6 +23,7 @@ export default function SearchText({ setColourName, setColour }) {
         autoFocus
         value={colourState}
         onChange={HandlerOnChange}
+        autoComplete="off"
       />
     </form>
   );
