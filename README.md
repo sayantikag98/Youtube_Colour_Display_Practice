@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project demo animation gif
+![Project Demo](https://github.com/sayantikag98/Youtube_Colour_Display_Practice/blob/main/animation/project_animation.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
