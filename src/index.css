@@ -24,11 +24,20 @@ code {
   background-color: rgb(248, 243, 236);
 }
 
+#btn-div {
+  margin: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgb(223, 213, 213);
+}
+
 #colour-box {
   height: 150px;
   width: 150px;
   padding: 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
@@ -36,7 +45,12 @@ code {
   outline: none;
   font-size: 25px;
   margin: 20px;
-  background-color: white;
+}
+
+#form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #search-text {
@@ -48,4 +62,8 @@ code {
   align-items: center;
   border: 2px solid black;
   background-color: white;
+}
+
+#search-text::placeholder {
+  color: black;
 }
